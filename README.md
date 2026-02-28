@@ -137,7 +137,7 @@
 *   **Язык:** C++26 (Clang 21+) *Примечание: В продакшене рекомендуется C++23*
 *   **Фреймворк:** Qt 6.5+ (Widgets, Core)
 *   **IDE:** CLion
-*   **Сборка:** CMake
+*   **Сборка:** CMake 4.2+
 *   **OS:** Linux (Kernel 5.10+)
 *   **JSON:** nlohmann/json или Qt6::Json
 
