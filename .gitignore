@@ -1,0 +1,19 @@
+# CLion
+cmake-build-*/
+.idea/
+
+# Build
+build/
+*.o
+*.a
+*.so
+*.dylib
+
+# Qt
+*.moc
+*.qrc.cpp
+*.ui~
+
+# OS
+.DS_Store
+Thumbs.db

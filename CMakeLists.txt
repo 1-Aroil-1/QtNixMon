@@ -14,9 +14,16 @@ find_package(Qt6 COMPONENTS
         REQUIRED)
 
 add_executable(QtNixMon
-        monitor.cpp
-        monitor.h
-        monitor.ui
+        src/main.cpp
+        src/ui/mainwindow.cpp
+        src/ui/mainwindow.ui
+        src/ui/settingsdialog.cpp
+        src/ui/settingsdialog.ui
+        src/core/systemmonitor.cpp
+        src/core/cpuinfo.cpp
+        src/core/meminfo.cpp
+        src/config/configmanager.cpp
+        resources/resources.qrc
 )
 target_link_libraries(QtNixMon
         Qt::Core
