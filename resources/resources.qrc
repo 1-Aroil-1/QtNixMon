@@ -1,11 +1,11 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
     <qresource prefix="/">
-        <!-- Стили -->
+
         <file>styles/dark.qss</file>
         <file>styles/light.qss</file>
 
-        <!-- Иконки (если есть) -->
+
         <!-- <file>icons/cpu.svg</file> -->
         <!-- <file>icons/ram.svg</file> -->
         <!-- <file>icons/disk.svg</file> -->
