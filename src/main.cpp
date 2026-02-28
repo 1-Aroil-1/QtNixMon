@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
 
     app.setApplicationName("QtNixMon");
     app.setApplicationVersion("0.1.0");
-    app.setOrganizationName("Boost Company");
+    app.setOrganizationName("Aroil");
 
     mainwindow window;
     window.show();
