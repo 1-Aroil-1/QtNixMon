@@ -1,0 +1,32 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/std_module.dir/usr/share/libc++/v1/std.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "CXX_MODULES",
+			"relative-directory" : "",
+			"source" : "/usr/share/libc++/v1/std.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/aroil/CLionProjects/QtNixMon/cmake-build-debug",
+	"dir-cur-src" : "/home/aroil/CLionProjects/QtNixMon",
+	"dir-top-bld" : "/home/aroil/CLionProjects/QtNixMon/cmake-build-debug",
+	"dir-top-src" : "/home/aroil/CLionProjects/QtNixMon",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/aroil/CLionProjects/QtNixMon/cmake-build-debug/CMakeFiles/std_module.dir",
+	"sources" : {}
+}
