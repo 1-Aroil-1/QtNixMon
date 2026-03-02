@@ -1,4 +1,0 @@
--x c++-module
--fmodule-output=CMakeFiles/QtNixMon.dir/systemmonitor.pcm
--fmodule-file=meminfo=CMakeFiles/QtNixMon.dir/meminfo.pcm
--fmodule-file=cpuinfo=CMakeFiles/QtNixMon.dir/cpuinfo.pcm
