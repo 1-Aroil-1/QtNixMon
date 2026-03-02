@@ -8,29 +8,33 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
+add_compile_options(-stdlib=libc++)
+add_link_options(-stdlib=libc++)
+
+set(CMAKE_CXX_SCAN_FOR_MODULES ON)
 
 find_package(Qt6 COMPONENTS Core Gui Widgets REQUIRED)
 
-add_executable(QtNixMon
+add_executable(QtNixMon)
+
+# 1. Обычные файлы (UI, ресурсы, QObject классы)
+target_sources(QtNixMon PRIVATE
         src/main.cpp
         resources/resources.qrc
-
         src/ui/mainwindow.ui
         src/ui/mainwindow.h
         src/ui/mainwindow.cpp
-
         src/ui/settingdialog.ui
         src/ui/settingdialog.h
         src/ui/settingdialog.cpp
 )
 
+# 2. Модули C++ (через FILE_SET)
 target_sources(QtNixMon PUBLIC
         FILE_SET CXX_MODULES FILES
-        src/core/cpuinfo.cppm
         src/core/meminfo.cppm
+        src/core/cpuinfo.cppm
         src/core/systemmonitor.cppm
-        src/config/configmanager.cppm
 )
 
 target_link_libraries(QtNixMon

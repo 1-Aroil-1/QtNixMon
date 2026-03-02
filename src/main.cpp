@@ -1,5 +1,8 @@
 #include <QApplication>
 #include "ui/mainwindow.h"
+#include <print>
+
+import meminfo;
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
@@ -10,6 +13,12 @@ int main(int argc, char *argv[]) {
 
     mainwindow window;
     window.show();
+
+    MemoryStats stats = MemoryInfo::init();
+
+    std::println("{}", stats.total);
+    std::println("{}", stats.used);
+    std::println("{}", stats.available);
 
     return app.exec();
 }
