@@ -1,5 +1,0 @@
-/home/aroil/CLionProjects/QtNixMon/cmake-build-debug/CMakeFiles/QtNixMon.dir
-/home/aroil/CLionProjects/QtNixMon/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/aroil/CLionProjects/QtNixMon/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/aroil/CLionProjects/QtNixMon/cmake-build-debug/CMakeFiles/QtNixMon_autogen_timestamp_deps.dir
-/home/aroil/CLionProjects/QtNixMon/cmake-build-debug/CMakeFiles/QtNixMon_autogen.dir
