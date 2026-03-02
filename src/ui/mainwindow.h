@@ -1,7 +1,3 @@
-//
-// Created by aroil on 02.03.2026.
-//
-
 #ifndef QTNIXMON_MAINWINDOW_H
 #define QTNIXMON_MAINWINDOW_H
 
