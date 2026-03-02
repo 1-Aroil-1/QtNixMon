@@ -3,7 +3,6 @@
 #include <print>
 #include <thread>
 #include <unistd.h>
-#include <cstdlib>
 
 import systemmonitor;
 
@@ -15,7 +14,7 @@ import systemmonitor;
     using namespace std::chrono_literals;
     while (true) {
         if (auto result = monitor.update()) {
-            std::println("{:^10.2f} | {:^12} MB | OK", result->cpuLoad, result->memUsed / 1024);
+            std::println("{:^10.2f} | {:^12} MB | {:^10}", result->cpuLoad, result->memUsed / 1024, "OK");
         } else {
             std::println("Error: {}", static_cast<int>(result.error()));
         }
