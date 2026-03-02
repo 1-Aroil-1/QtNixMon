@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/QtNixMon.dir/src/core/systemmonitor.cppm.o",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "systemmonitor",
+          "source-path": "/home/aroil/CLionProjects/QtNixMon/src/core/systemmonitor.cppm"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
