@@ -1,24 +1,60 @@
 #include <QApplication>
 #include "ui/mainwindow.h"
 #include <print>
+#include <thread>
+#include <unistd.h>
+#include <cstdlib>
 
-import meminfo;
+import systemmonitor;
+
+[[noreturn]] void runConsoleMode(SystemMonitor& monitor) {
+    std::println("Starting System Monitor (CLI Mode)...");
+    std::println("{:^10} | {:^15} | {:^10}", "CPU %", "Mem Used", "Status");
+    std::println("{:-^40}", "");
+
+    using namespace std::chrono_literals;
+    while (true) {
+        if (auto result = monitor.update()) {
+            std::println("{:^10.2f} | {:^12} MB | OK", result->cpuLoad, result->memUsed / 1024);
+        } else {
+            std::println("Error: {}", static_cast<int>(result.error()));
+        }
+        std::this_thread::sleep_for(1s);
+    }
+}
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
+    const std::vector<std::string_view> args(argv + 1, argv + argc);
+    bool useGui = false;
 
-    app.setApplicationName("QtNixMon");
-    app.setApplicationVersion("0.1.0");
-    app.setOrganizationName("Aroil");
+    for (const auto arg : args) {
+        if (arg == "--gui") {
+            useGui = true;
+            break;
+        }
+    }
 
-    mainwindow window;
-    window.show();
+    if (useGui) {
 
-    MemoryStats stats = MemoryInfo::init();
+        const pid_t pid = fork();
 
-    std::println("{}", stats.total);
-    std::println("{}", stats.used);
-    std::println("{}", stats.available);
+        if (pid < 0) {
+            std::println(stderr, "error forking");
+            return 1;
+        }
 
-    return app.exec();
+        if (pid > 0) {
+            return 0;
+        }
+
+        QApplication app(argc, argv);
+        app.setApplicationName("QtNixMon");
+
+        mainwindow window;
+        window.show();
+        return app.exec();
+    } else {
+        SystemMonitor monitor;
+        runConsoleMode(monitor);
+    }
 }

@@ -2,7 +2,6 @@ module;
 
 #include <fstream>
 #include <string>
-#include <string_view>
 
 export module meminfo;
 
@@ -12,7 +11,7 @@ export struct MemoryStats {
     unsigned long used;
 };
 
-export class MemoryInfo {
+export class MemInfo {
     static unsigned long parseValue(const std::string& line) {
         return std::stoul(line.substr(line.find_first_of("0123456789")));
     }

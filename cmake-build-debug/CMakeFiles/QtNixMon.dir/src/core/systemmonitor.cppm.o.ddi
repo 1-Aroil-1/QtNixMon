@@ -9,6 +9,14 @@
           "logical-name": "systemmonitor",
           "source-path": "/home/aroil/CLionProjects/QtNixMon/src/core/systemmonitor.cppm"
         }
+      ],
+      "requires": [
+        {
+          "logical-name": "meminfo"
+        },
+        {
+          "logical-name": "cpuinfo"
+        }
       ]
     }
   ],

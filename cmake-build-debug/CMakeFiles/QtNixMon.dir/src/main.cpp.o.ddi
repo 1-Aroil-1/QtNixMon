@@ -5,7 +5,7 @@
       "primary-output": "CMakeFiles/QtNixMon.dir/src/main.cpp.o",
       "requires": [
         {
-          "logical-name": "meminfo"
+          "logical-name": "systemmonitor"
         }
       ]
     }

@@ -35,5 +35,12 @@
 			"path" : "CMakeFiles/QtNixMon.dir/systemmonitor.pcm"
 		}
 	},
-	"usages" : {}
+	"usages" : 
+	{
+		"systemmonitor" : 
+		[
+			"cpuinfo",
+			"meminfo"
+		]
+	}
 }

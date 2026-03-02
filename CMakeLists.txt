@@ -8,11 +8,6 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-add_compile_options(-stdlib=libc++)
-add_link_options(-stdlib=libc++)
-
-set(CMAKE_CXX_SCAN_FOR_MODULES ON)
-
 find_package(Qt6 COMPONENTS Core Gui Widgets REQUIRED)
 
 add_executable(QtNixMon)
@@ -44,3 +39,4 @@ target_link_libraries(QtNixMon
 )
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_CXX_SCAN_FOR_MODULES ON)

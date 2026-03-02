@@ -55,7 +55,7 @@ build CMakeFiles/QtNixMon.dir/QtNixMon_autogen/mocs_compilation.cpp.o: CXX_COMPI
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/QtNixMon_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJECT_DIR = CMakeFiles/QtNixMon.dir
   OBJECT_FILE_DIR = CMakeFiles/QtNixMon.dir/QtNixMon_autogen
@@ -65,7 +65,7 @@ build CMakeFiles/QtNixMon.dir/src/main.cpp.o.ddi: CXX_SCAN__QtNixMon_Debug /home
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/main.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/QtNixMon.dir/src/main.cpp.o.ddi
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJ_FILE = CMakeFiles/QtNixMon.dir/src/main.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/QtNixMon.dir/src/main.cpp.o.ddi.i
@@ -75,7 +75,7 @@ build CMakeFiles/QtNixMon.dir/src/main.cpp.o: CXX_COMPILER__QtNixMon_scanned_Deb
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/main.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/QtNixMon.dir/src/main.cpp.o.modmap
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJECT_DIR = CMakeFiles/QtNixMon.dir
   OBJECT_FILE_DIR = CMakeFiles/QtNixMon.dir/src
@@ -86,7 +86,7 @@ build CMakeFiles/QtNixMon.dir/src/ui/mainwindow.cpp.o.ddi: CXX_SCAN__QtNixMon_De
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/ui/mainwindow.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/QtNixMon.dir/src/ui/mainwindow.cpp.o.ddi
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJ_FILE = CMakeFiles/QtNixMon.dir/src/ui/mainwindow.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/QtNixMon.dir/src/ui/mainwindow.cpp.o.ddi.i
@@ -96,7 +96,7 @@ build CMakeFiles/QtNixMon.dir/src/ui/mainwindow.cpp.o: CXX_COMPILER__QtNixMon_sc
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/ui/mainwindow.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/QtNixMon.dir/src/ui/mainwindow.cpp.o.modmap
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJECT_DIR = CMakeFiles/QtNixMon.dir
   OBJECT_FILE_DIR = CMakeFiles/QtNixMon.dir/src/ui
@@ -107,7 +107,7 @@ build CMakeFiles/QtNixMon.dir/src/ui/settingdialog.cpp.o.ddi: CXX_SCAN__QtNixMon
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/ui/settingdialog.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/QtNixMon.dir/src/ui/settingdialog.cpp.o.ddi
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJ_FILE = CMakeFiles/QtNixMon.dir/src/ui/settingdialog.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/QtNixMon.dir/src/ui/settingdialog.cpp.o.ddi.i
@@ -117,7 +117,7 @@ build CMakeFiles/QtNixMon.dir/src/ui/settingdialog.cpp.o: CXX_COMPILER__QtNixMon
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/ui/settingdialog.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/QtNixMon.dir/src/ui/settingdialog.cpp.o.modmap
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJECT_DIR = CMakeFiles/QtNixMon.dir
   OBJECT_FILE_DIR = CMakeFiles/QtNixMon.dir/src/ui
@@ -128,7 +128,7 @@ build CMakeFiles/QtNixMon.dir/QtNixMon_autogen/3YJK5W5UP7/qrc_resources.cpp.o: C
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/QtNixMon_autogen/3YJK5W5UP7/qrc_resources.cpp.o.d
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJECT_DIR = CMakeFiles/QtNixMon.dir
   OBJECT_FILE_DIR = CMakeFiles/QtNixMon.dir/QtNixMon_autogen/3YJK5W5UP7
@@ -138,7 +138,7 @@ build CMakeFiles/QtNixMon.dir/src/core/meminfo.cppm.o.ddi: CXX_SCAN__QtNixMon_De
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/core/meminfo.cppm.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/QtNixMon.dir/src/core/meminfo.cppm.o.ddi
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJ_FILE = CMakeFiles/QtNixMon.dir/src/core/meminfo.cppm.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/QtNixMon.dir/src/core/meminfo.cppm.o.ddi.i
@@ -148,7 +148,7 @@ build CMakeFiles/QtNixMon.dir/src/core/meminfo.cppm.o: CXX_COMPILER__QtNixMon_sc
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/core/meminfo.cppm.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/QtNixMon.dir/src/core/meminfo.cppm.o.modmap
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJECT_DIR = CMakeFiles/QtNixMon.dir
   OBJECT_FILE_DIR = CMakeFiles/QtNixMon.dir/src/core
@@ -159,7 +159,7 @@ build CMakeFiles/QtNixMon.dir/src/core/cpuinfo.cppm.o.ddi: CXX_SCAN__QtNixMon_De
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/core/cpuinfo.cppm.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/QtNixMon.dir/src/core/cpuinfo.cppm.o.ddi
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJ_FILE = CMakeFiles/QtNixMon.dir/src/core/cpuinfo.cppm.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/QtNixMon.dir/src/core/cpuinfo.cppm.o.ddi.i
@@ -169,7 +169,7 @@ build CMakeFiles/QtNixMon.dir/src/core/cpuinfo.cppm.o: CXX_COMPILER__QtNixMon_sc
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/core/cpuinfo.cppm.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/QtNixMon.dir/src/core/cpuinfo.cppm.o.modmap
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJECT_DIR = CMakeFiles/QtNixMon.dir
   OBJECT_FILE_DIR = CMakeFiles/QtNixMon.dir/src/core
@@ -180,7 +180,7 @@ build CMakeFiles/QtNixMon.dir/src/core/systemmonitor.cppm.o.ddi: CXX_SCAN__QtNix
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/core/systemmonitor.cppm.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/QtNixMon.dir/src/core/systemmonitor.cppm.o.ddi
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJ_FILE = CMakeFiles/QtNixMon.dir/src/core/systemmonitor.cppm.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/QtNixMon.dir/src/core/systemmonitor.cppm.o.ddi.i
@@ -190,7 +190,7 @@ build CMakeFiles/QtNixMon.dir/src/core/systemmonitor.cppm.o: CXX_COMPILER__QtNix
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/QtNixMon.dir/src/core/systemmonitor.cppm.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/QtNixMon.dir/src/core/systemmonitor.cppm.o.modmap
-  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -stdlib=libc++ -fno-direct-access-external-data
+  FLAGS = -g -std=gnu++26 -fcolor-diagnostics -fno-direct-access-external-data
   INCLUDES = -isystem /home/aroil/CLionProjects/QtNixMon/cmake-build-debug/QtNixMon_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets
   OBJECT_DIR = CMakeFiles/QtNixMon.dir
   OBJECT_FILE_DIR = CMakeFiles/QtNixMon.dir/src/core
@@ -211,7 +211,7 @@ build QtNixMon: CXX_EXECUTABLE_LINKER__QtNixMon_Debug CMakeFiles/QtNixMon.dir/Qt
   CONFIG = Debug
   DEP_FILE = CMakeFiles/QtNixMon.dir/link.d
   FLAGS = -g
-  LINK_FLAGS = -stdlib=libc++ -Xlinker --dependency-file=CMakeFiles/QtNixMon.dir/link.d
+  LINK_FLAGS = -Xlinker --dependency-file=CMakeFiles/QtNixMon.dir/link.d
   LINK_LIBRARIES = /usr/lib/libQt6Widgets.so.6.10.2  /usr/lib/libQt6Gui.so.6.10.2  /usr/lib/libGLX.so  /usr/lib/libOpenGL.so  /usr/lib/libQt6Core.so.6.10.2
   OBJECT_DIR = CMakeFiles/QtNixMon.dir
   POST_BUILD = :
