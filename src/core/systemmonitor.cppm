@@ -9,7 +9,8 @@ import meminfo;
 import cpuinfo;
 
 export enum class MonitorError {
-    ReadError
+    ReadError,
+    ParseError
 };
 
 export struct SystemSnapshot {

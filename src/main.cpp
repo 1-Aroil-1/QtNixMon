@@ -18,7 +18,7 @@ import systemmonitor;
         } else {
             std::println("Error: {}", static_cast<int>(result.error()));
         }
-        std::this_thread::sleep_for(1s);
+        std::this_thread::sleep_for(1000ms);
     }
 }
 
