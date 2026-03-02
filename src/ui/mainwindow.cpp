@@ -1,5 +1,5 @@
 //
-// Created by aroil on 28.02.2026.
+// Created by aroil on 02.03.2026.
 //
 
 // You may need to build the project (run Qt uic code generator) to get "ui_mainwindow.h" resolved
@@ -8,7 +8,7 @@
 #include "ui_mainwindow.h"
 
 
-mainwindow::mainwindow(QWidget *parent) : QWidget(parent), ui(new Ui::mainwindow) {
+mainwindow::mainwindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::mainwindow) {
     ui->setupUi(this);
 }
 

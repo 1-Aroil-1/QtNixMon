@@ -1,11 +1,11 @@
 //
-// Created by aroil on 28.02.2026.
+// Created by aroil on 02.03.2026.
 //
 
 #ifndef QTNIXMON_MAINWINDOW_H
 #define QTNIXMON_MAINWINDOW_H
 
-#include <QWidget>
+#include <QMainWindow>
 
 
 QT_BEGIN_NAMESPACE
@@ -16,7 +16,7 @@ namespace Ui {
 
 QT_END_NAMESPACE
 
-class mainwindow : public QWidget {
+class mainwindow : public QMainWindow {
     Q_OBJECT
 
 public:

@@ -2,32 +2,41 @@ cmake_minimum_required(VERSION 4.2)
 project(QtNixMon)
 
 set(CMAKE_CXX_STANDARD 26)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-find_package(Qt6 COMPONENTS
-        Core
-        Gui
-        Widgets
-        REQUIRED)
+find_package(Qt6 COMPONENTS Core Gui Widgets REQUIRED)
 
 add_executable(QtNixMon
         src/main.cpp
-        src/ui/mainwindow.cpp
-        src/ui/mainwindow.ui
-        src/ui/settingsdialog.cpp
-        src/ui/settingsdialog.ui
-        src/core/systemmonitor.cpp
-        src/core/cpuinfo.cpp
-        src/core/meminfo.cpp
-        src/config/configmanager.cpp
         resources/resources.qrc
-)
-target_link_libraries(QtNixMon
-        Qt::Core
-        Qt::Gui
-        Qt::Widgets
+
+        src/ui/mainwindow.ui
+        src/ui/mainwindow.h
+        src/ui/mainwindow.cpp
+
+        src/ui/settingdialog.ui
+        src/ui/settingdialog.h
+        src/ui/settingdialog.cpp
 )
 
+target_sources(QtNixMon PUBLIC
+        FILE_SET CXX_MODULES FILES
+        src/core/cpuinfo.cppm
+        src/core/meminfo.cppm
+        src/core/systemmonitor.cppm
+        src/config/configmanager.cppm
+)
+
+target_link_libraries(QtNixMon
+        Qt6::Core
+        Qt6::Gui
+        Qt6::Widgets
+)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)

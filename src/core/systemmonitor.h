@@ -1,9 +1,0 @@
-#ifndef QTNIXMON_SYSTEMMONITOR_H
-#define QTNIXMON_SYSTEMMONITOR_H
-
-
-class systemmonitor {
-};
-
-
-#endif //QTNIXMON_SYSTEMMONITOR_H

@@ -3,8 +3,8 @@
     <author/>
     <comment/>
     <exportmacro/>
-    <class>settingsdialog</class>
-    <widget class="QWidget" name="settingsdialog">
+    <class>settingdialog</class>
+    <widget class="QWidget" name="settingdialog">
         <property name="geometry">
             <rect>
                 <x>0</x>
@@ -14,7 +14,7 @@
             </rect>
         </property>
         <property name="windowTitle">
-            <string>settingsdialog</string>
+            <string>settingdialog</string>
         </property>
     </widget>
     <pixmapfunction/>

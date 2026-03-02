@@ -1,9 +1,0 @@
-#ifndef QTNIXMON_CONFIGMANAGER_H
-#define QTNIXMON_CONFIGMANAGER_H
-
-
-class configmanager {
-};
-
-
-#endif //QTNIXMON_CONFIGMANAGER_H
