@@ -30,6 +30,7 @@ target_sources(QtNixMon PUBLIC
         src/core/meminfo.cppm
         src/core/cpuinfo.cppm
         src/core/systemmonitor.cppm
+        src/config/configmanager.cppm
 )
 
 target_link_libraries(QtNixMon
