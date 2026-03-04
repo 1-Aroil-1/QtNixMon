@@ -233,7 +233,7 @@ mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 
 # Сборка
-make -j4
+make -j10
 
 # Запуск CLI
 ./QtNixMon
