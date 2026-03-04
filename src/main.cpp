@@ -4,7 +4,6 @@
 #include <thread>
 #include <unistd.h>
 #include <csignal>
-#include <cstring>
 
 import systemmonitor;
 import configmanager;
